@@ -15,6 +15,7 @@
         <module>shijingsh-ai-jsat</module>
         <module>shijingsh-ai-math</module>
         <module>shijingsh-ai-model</module>
+        <module>shijingsh-ai-rns</module>
         <module>shijingsh-ai-weka</module>
     </modules>
 
@@ -312,6 +313,19 @@
                 <groupId>com.esotericsoftware</groupId>
                 <artifactId>kryo</artifactId>
                 <version>4.0.2</version>
+            </dependency>
+
+            <!-- 仓储框架依赖 -->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>4.0.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>4.0.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
