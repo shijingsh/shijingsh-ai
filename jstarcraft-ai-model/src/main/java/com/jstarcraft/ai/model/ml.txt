@@ -1,0 +1,23 @@
+Algorithms of the Intelligent Web(智能Web算法):
+https://www.manning.com/books/algorithms-of-the-intelligent-web?query=Algorithms%20of%20the%20Intelligent%20Web
+
+25个Java机器学习工具和库:
+http://www.codeceo.com/article/25-java-machine-learning-tools.html
+
+Java Machine Learning Library:
+https://github.com/AbeelLab/javaml
+
+Java Statistical Analysis Tool, a Java library for Machine Learning:
+https://github.com/EdwardRaff/JSAT
+
+A Java-based set of classification clustering algorithms:
+https://github.com/tgsmith61591/clust4j
+
+MALLET is a Java-based package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text:
+https://github.com/mimno/Mallet
+
+Machine learning, in numpy:
+https://github.com/ddbourgin/numpy-ml
+
+Algorithms of the Intelligent Web:
+https://www.manning.com/books/algorithms-of-the-intelligent-web
