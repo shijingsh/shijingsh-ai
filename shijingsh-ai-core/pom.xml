@@ -8,7 +8,7 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>shijingsh-core</artifactId>
+    <artifactId>shijingsh-ai-core</artifactId>
     <packaging>jar</packaging>
 
     <build>
@@ -41,7 +41,7 @@
     </build>
     <dependencies>
         <!-- 兼容JDK11 -->
-        <dependency>
+<!--        <dependency>
             <groupId>javax.annotation</groupId>
             <artifactId>javax.annotation-api</artifactId>
         </dependency>
@@ -54,9 +54,9 @@
         <dependency>
             <groupId>jdk.tools</groupId>
             <artifactId>jdk.tools</artifactId>
-        </dependency>
+        </dependency>-->
 
-        <!-- JStarCraft框架依赖 -->
+        <!-- shijingsh框架依赖 -->
 
         <!-- 切面框架依赖 -->
         <dependency>
@@ -198,6 +198,22 @@
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-jcl</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-java8</artifactId>
+        </dependency>
+
+        <!-- Kryo -->
+        <dependency>
+            <groupId>com.esotericsoftware</groupId>
+            <artifactId>kryo</artifactId>
         </dependency>
     </dependencies>
 </project>

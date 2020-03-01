@@ -1,7 +1,6 @@
 package com.shijingsh.ai.data.converter;
 
-import com.shijingsh.ai.data.DataModule;
-import com.shijingsh.ai.data.DataModule;
+import com.shijingsh.ai.data.*;
 
 /**
  * 数据转换器

@@ -41,7 +41,7 @@
     </build>
 
     <dependencies>
-        <dependency>
+<!--        <dependency>
             <groupId>com.shijingsh</groupId>
             <artifactId>shijingsh-core-codec</artifactId>
         </dependency>
@@ -49,8 +49,12 @@
         <dependency>
             <groupId>com.shijingsh</groupId>
             <artifactId>shijingsh-core-orm</artifactId>
+        </dependency>-->
+        <dependency>
+            <groupId>com.shijingsh</groupId>
+            <artifactId>shijingsh-ai-core</artifactId>
+            <version>1.0</version>
         </dependency>
-
         <!-- 机器学习框架依赖 -->
         <dependency>
             <groupId>org.apache.commons</groupId>
