@@ -6,7 +6,7 @@ import com.shijingsh.ai.math.algorithm.correlation.AbstractCorrelation;
 import com.shijingsh.ai.math.algorithm.correlation.MathDistance;
 import com.shijingsh.ai.math.algorithm.correlation.MathSimilarity;
 import com.shijingsh.ai.math.structure.vector.MathVector;
-import com.jstarcraft.core.utility.Float2FloatKeyValue;
+import com.shijingsh.core.utility.Float2FloatKeyValue;
 import com.shijingsh.ai.math.algorithm.correlation.AbstractCorrelation;
 import com.shijingsh.ai.math.algorithm.correlation.MathSimilarity;
 import com.shijingsh.ai.math.structure.vector.MathVector;

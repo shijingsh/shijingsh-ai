@@ -37,7 +37,7 @@ import com.shijingsh.ai.jsat.utils.ArrayUtils;
 import com.shijingsh.ai.jsat.utils.IndexTable;
 import com.shijingsh.ai.jsat.utils.Tuple3;
 import com.shijingsh.ai.jsat.utils.concurrent.ParallelUtils;
-import com.jstarcraft.core.utility.Double2IntegerKeyValue;
+import com.shijingsh.core.utility.Double2IntegerKeyValue;
 
 import com.shijingsh.ai.jsat.linear.DenseVector;
 import com.shijingsh.ai.jsat.linear.Vec;

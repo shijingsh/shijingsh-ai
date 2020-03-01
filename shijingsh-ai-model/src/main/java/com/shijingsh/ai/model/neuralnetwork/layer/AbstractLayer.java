@@ -19,7 +19,7 @@ import com.shijingsh.ai.math.structure.matrix.GlobalMatrix;
 import com.shijingsh.ai.math.structure.matrix.MathMatrix;
 import com.shijingsh.ai.model.neuralnetwork.activation.ActivationFunction;
 import com.shijingsh.ai.modem.ModemDefinition;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 /**
  * 抽象层

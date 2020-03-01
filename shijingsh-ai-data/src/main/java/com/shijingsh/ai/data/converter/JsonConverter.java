@@ -12,11 +12,11 @@ import com.shijingsh.ai.data.attribute.QualityAttribute;
 import com.shijingsh.ai.data.attribute.QuantityAttribute;
 import com.shijingsh.ai.data.module.DenseModule;
 import com.shijingsh.ai.data.module.SparseModule;
-import com.jstarcraft.core.common.conversion.csv.ConversionUtility;
-import com.jstarcraft.core.common.conversion.json.JsonUtility;
-import com.jstarcraft.core.common.reflection.TypeUtility;
-import com.jstarcraft.core.utility.KeyValue;
-import com.jstarcraft.core.utility.StringUtility;
+import com.shijingsh.core.common.conversion.csv.ConversionUtility;
+import com.shijingsh.core.common.conversion.json.JsonUtility;
+import com.shijingsh.core.common.reflection.TypeUtility;
+import com.shijingsh.core.utility.KeyValue;
+import com.shijingsh.core.utility.StringUtility;
 
 import com.shijingsh.ai.data.DataModule;
 import com.shijingsh.ai.data.attribute.QualityAttribute;

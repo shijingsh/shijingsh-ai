@@ -36,7 +36,7 @@ public class MatrixUtility {
      * @return
      */
     // 行列相同,对角一半为0,一半为数值
-    // TODO 准备迁移到com.jstarcraft.module.math.algorithm.decomposition
+    // TODO 准备迁移到com.shijingsh.module.math.algorithm.decomposition
     public static <T extends MathMatrix> T cholesky(final MathMatrix matrix, T cholesky) {
         assert matrix.getRowSize() == matrix.getColumnSize();
         int size = matrix.getColumnSize();

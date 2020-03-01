@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.jstarcraft</groupId>
-        <artifactId>jstarcraft-ai</artifactId>
+        <groupId>com.shijingsh</groupId>
+        <artifactId>shijingsh-ai</artifactId>
         <version>1.0</version>
     </parent>
 
-    <artifactId>jstarcraft-ai-evaluate</artifactId>
+    <artifactId>shijingsh-ai-evaluate</artifactId>
     <packaging>jar</packaging>
 
     <build>
@@ -42,8 +42,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.jstarcraft</groupId>
-            <artifactId>jstarcraft-ai-math</artifactId>
+            <groupId>com.shijingsh</groupId>
+            <artifactId>shijingsh-ai-math</artifactId>
             <version>1.0</version>
         </dependency>
 

@@ -31,7 +31,7 @@ import com.shijingsh.ai.jsat.utils.IndexTable;
 import com.shijingsh.ai.jsat.utils.ListUtils;
 import com.shijingsh.ai.jsat.utils.concurrent.ParallelUtils;
 import com.shijingsh.ai.jsat.utils.random.XORWOW;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 import com.shijingsh.ai.jsat.linear.Vec;
 import com.shijingsh.ai.jsat.linear.distancemetrics.DistanceMetric;

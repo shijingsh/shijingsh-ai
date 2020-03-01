@@ -4,7 +4,7 @@ import org.apache.commons.math3.util.FastMath;
 
 import com.shijingsh.ai.math.structure.MathMessage;
 import com.shijingsh.ai.math.structure.message.AccumulationMessage;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 /**
  * 边界消息

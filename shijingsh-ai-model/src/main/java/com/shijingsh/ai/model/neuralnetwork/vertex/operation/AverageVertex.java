@@ -9,7 +9,7 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 import com.shijingsh.ai.math.structure.MathCalculator;
 import com.shijingsh.ai.math.structure.MathCache;
 import com.shijingsh.ai.math.structure.matrix.MathMatrix;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 /**
  * Average节点

@@ -9,8 +9,8 @@ import java.util.PriorityQueue;
 
 import org.apache.commons.math3.util.FastMath;
 
-import com.jstarcraft.core.utility.Float2FloatKeyValue;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.Float2FloatKeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 /**
  * 标量迭代器

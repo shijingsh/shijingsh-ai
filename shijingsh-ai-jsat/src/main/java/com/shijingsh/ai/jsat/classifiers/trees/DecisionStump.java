@@ -30,7 +30,7 @@ import com.shijingsh.ai.jsat.utils.FakeExecutor;
 import com.shijingsh.ai.jsat.utils.QuickSort;
 import com.shijingsh.ai.jsat.utils.concurrent.AtomicDouble;
 import com.shijingsh.ai.jsat.utils.concurrent.ParallelUtils;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 import com.shijingsh.ai.jsat.DataSet;
 import com.shijingsh.ai.jsat.classifiers.*;

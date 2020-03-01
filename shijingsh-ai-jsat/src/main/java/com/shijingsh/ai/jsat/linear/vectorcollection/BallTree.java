@@ -42,7 +42,7 @@ import com.shijingsh.ai.jsat.utils.ListUtils;
 import com.shijingsh.ai.jsat.utils.concurrent.AtomicDoubleArray;
 import com.shijingsh.ai.jsat.utils.concurrent.ParallelUtils;
 import com.shijingsh.ai.jsat.utils.random.RandomUtil;
-import com.jstarcraft.core.utility.Integer2IntegerKeyValue;
+import com.shijingsh.core.utility.Integer2IntegerKeyValue;
 
 import com.shijingsh.ai.jsat.clustering.MEDDIT;
 import com.shijingsh.ai.jsat.clustering.PAM;

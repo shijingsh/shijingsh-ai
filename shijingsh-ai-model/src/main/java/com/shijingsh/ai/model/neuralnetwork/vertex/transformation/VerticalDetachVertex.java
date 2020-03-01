@@ -12,7 +12,7 @@ import com.shijingsh.ai.math.structure.matrix.MathMatrix;
 import com.shijingsh.ai.math.structure.matrix.RowGlobalMatrix;
 import com.shijingsh.ai.model.neuralnetwork.vertex.AbstractVertex;
 import com.shijingsh.ai.modem.ModemDefinition;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 /**
  * VerticalDetachVertex节点

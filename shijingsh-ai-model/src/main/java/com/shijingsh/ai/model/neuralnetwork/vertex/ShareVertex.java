@@ -23,7 +23,7 @@ import com.shijingsh.ai.model.neuralnetwork.normalization.IgnoreNormalizer;
 import com.shijingsh.ai.model.neuralnetwork.normalization.Normalizer;
 import com.shijingsh.ai.modem.ModemDefinition;
 import com.shijingsh.ai.math.structure.matrix.LocalMatrix;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 /**
  * 共享节点

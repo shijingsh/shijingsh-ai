@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 import com.shijingsh.ai.math.structure.MathCache;
 import com.shijingsh.ai.math.structure.matrix.MathMatrix;
 import com.shijingsh.ai.modem.ModemDefinition;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 /**
  * 抽象节点

@@ -7,7 +7,7 @@ import java.util.TreeMap;
 import com.shijingsh.ai.data.DataModule;
 import com.shijingsh.ai.data.FloatArray;
 import com.shijingsh.ai.data.IntegerArray;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 import com.shijingsh.ai.data.DataModule;
 import com.shijingsh.ai.data.FloatArray;
 import com.shijingsh.ai.data.IntegerArray;

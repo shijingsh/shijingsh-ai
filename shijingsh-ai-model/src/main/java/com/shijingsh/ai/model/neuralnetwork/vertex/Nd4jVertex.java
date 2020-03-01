@@ -17,7 +17,7 @@ import com.shijingsh.ai.math.structure.matrix.MathMatrix;
 import com.shijingsh.ai.math.structure.matrix.Nd4jMatrix;
 import com.shijingsh.ai.model.neuralnetwork.vertex.transformation.HorizontalAttachVertex;
 import com.shijingsh.ai.modem.ModemDefinition;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 /**
  * Nd4j节点

@@ -11,7 +11,7 @@ import com.shijingsh.ai.math.structure.matrix.MathMatrix;
 import com.shijingsh.ai.math.structure.vector.GlobalVector;
 import com.shijingsh.ai.math.structure.vector.MathVector;
 import com.shijingsh.ai.model.neuralnetwork.activation.ActivationFunction;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 import com.shijingsh.ai.math.structure.MathCache;
 import com.shijingsh.ai.math.structure.MathCalculator;
 import com.shijingsh.ai.math.structure.matrix.ColumnGlobalMatrix;

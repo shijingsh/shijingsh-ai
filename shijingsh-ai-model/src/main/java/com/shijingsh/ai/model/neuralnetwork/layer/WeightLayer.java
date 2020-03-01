@@ -17,7 +17,7 @@ import com.shijingsh.ai.math.structure.matrix.MathMatrix;
 import com.shijingsh.ai.math.structure.matrix.MatrixScalar;
 import com.shijingsh.ai.math.structure.matrix.Nd4jMatrix;
 import com.shijingsh.ai.model.neuralnetwork.activation.ActivationFunction;
-import com.jstarcraft.core.utility.StringUtility;
+import com.shijingsh.core.utility.StringUtility;
 
 /**
  * 权重层

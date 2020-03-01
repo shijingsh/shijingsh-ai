@@ -5,8 +5,8 @@ import org.apache.commons.math3.random.RandomGenerator;
 
 import com.shijingsh.ai.modem.ModemCycle;
 import com.shijingsh.ai.modem.ModemDefinition;
-import com.jstarcraft.core.common.reflection.ReflectionUtility;
-import com.jstarcraft.core.utility.ArrayUtility;
+import com.shijingsh.core.common.reflection.ReflectionUtility;
+import com.shijingsh.core.utility.ArrayUtility;
 
 /**
  * 连续概率分布

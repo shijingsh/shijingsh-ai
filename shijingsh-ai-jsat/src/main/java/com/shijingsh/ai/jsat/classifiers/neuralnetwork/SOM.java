@@ -34,7 +34,7 @@ import com.shijingsh.ai.jsat.utils.ArrayUtils;
 import com.shijingsh.ai.jsat.utils.SystemInfo;
 import com.shijingsh.ai.jsat.utils.concurrent.ParallelUtils;
 import com.shijingsh.ai.jsat.utils.random.RandomUtil;
-import com.jstarcraft.core.utility.Integer2IntegerKeyValue;
+import com.shijingsh.core.utility.Integer2IntegerKeyValue;
 import com.shijingsh.ai.jsat.DataSet;
 import com.shijingsh.ai.jsat.parameters.Parameterized;
 import com.shijingsh.ai.jsat.utils.ArrayUtils;

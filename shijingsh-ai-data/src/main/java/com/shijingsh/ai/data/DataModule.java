@@ -2,7 +2,7 @@ package com.shijingsh.ai.data;
 
 import java.util.Map.Entry;
 
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 import it.unimi.dsi.fastutil.ints.Int2FloatSortedMap;
 import it.unimi.dsi.fastutil.ints.Int2IntSortedMap;

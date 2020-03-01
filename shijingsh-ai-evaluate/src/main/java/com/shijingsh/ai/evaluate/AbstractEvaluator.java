@@ -1,6 +1,6 @@
 package com.shijingsh.ai.evaluate;
 
-import com.jstarcraft.core.utility.Integer2FloatKeyValue;
+import com.shijingsh.core.utility.Integer2FloatKeyValue;
 
 /**
  * 抽象评估器

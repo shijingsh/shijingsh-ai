@@ -3,8 +3,8 @@ package com.shijingsh.ai.environment;
 import org.nd4j.linalg.api.concurrency.AffinityManager;
 import org.nd4j.linalg.factory.Nd4j;
 
-import com.jstarcraft.core.utility.NameThreadFactory;
-import com.jstarcraft.core.utility.StringUtility;
+import com.shijingsh.core.utility.NameThreadFactory;
+import com.shijingsh.core.utility.StringUtility;
 
 /**
  * 环境工厂

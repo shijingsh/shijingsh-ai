@@ -25,8 +25,8 @@ import com.shijingsh.ai.model.neuralnetwork.vertex.LayerVertex;
 import com.shijingsh.ai.model.neuralnetwork.vertex.Vertex;
 import com.shijingsh.ai.modem.ModemCycle;
 import com.shijingsh.ai.modem.ModemDefinition;
-import com.jstarcraft.core.utility.KeyValue;
-import com.jstarcraft.core.utility.StringUtility;
+import com.shijingsh.core.utility.KeyValue;
+import com.shijingsh.core.utility.StringUtility;
 
 import it.unimi.dsi.fastutil.ints.IntArrayList;
 import it.unimi.dsi.fastutil.ints.IntList;

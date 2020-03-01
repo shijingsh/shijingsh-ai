@@ -16,7 +16,7 @@ import com.shijingsh.ai.data.attribute.MemoryQuantityAttribute;
 import com.shijingsh.ai.data.attribute.MemoryQualityAttribute;
 import com.shijingsh.ai.data.module.DenseModule;
 import com.shijingsh.ai.data.module.SparseModule;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 /**
  * 数据空间

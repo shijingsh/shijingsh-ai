@@ -7,7 +7,7 @@ import java.util.Random;
 import com.shijingsh.ai.jsat.linear.Vec;
 import com.shijingsh.ai.jsat.linear.distancemetrics.DistanceMetric;
 import com.shijingsh.ai.jsat.math.OnLineStatistics;
-import com.jstarcraft.core.utility.Double2IntegerKeyValue;
+import com.shijingsh.core.utility.Double2IntegerKeyValue;
 import com.shijingsh.ai.jsat.linear.Vec;
 import com.shijingsh.ai.jsat.linear.distancemetrics.DistanceMetric;
 import com.shijingsh.ai.jsat.math.OnLineStatistics;

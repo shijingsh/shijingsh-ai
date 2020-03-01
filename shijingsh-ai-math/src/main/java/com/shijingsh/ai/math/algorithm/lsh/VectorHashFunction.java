@@ -1,7 +1,7 @@
 package com.shijingsh.ai.math.algorithm.lsh;
 
 import com.shijingsh.ai.math.structure.vector.MathVector;
-import com.jstarcraft.core.common.hash.HashFunction;
+import com.shijingsh.core.common.hash.HashFunction;
 import com.shijingsh.ai.math.structure.vector.MathVector;
 
 /**

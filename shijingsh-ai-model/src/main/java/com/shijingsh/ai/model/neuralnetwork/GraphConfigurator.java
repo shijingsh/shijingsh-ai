@@ -7,8 +7,8 @@ import java.util.Map;
 import java.util.Set;
 
 import com.shijingsh.ai.model.neuralnetwork.vertex.Vertex;
-import com.jstarcraft.core.utility.Integer2IntegerKeyValue;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.Integer2IntegerKeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 import it.unimi.dsi.fastutil.ints.IntArrayFIFOQueue;
 import it.unimi.dsi.fastutil.ints.IntArrayList;

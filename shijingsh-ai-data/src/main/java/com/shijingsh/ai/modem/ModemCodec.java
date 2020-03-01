@@ -15,17 +15,17 @@ import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.type.TypeFactory;
 import com.shijingsh.ai.modem.exception.ModemException;
-import com.jstarcraft.core.codec.ContentCodec;
-import com.jstarcraft.core.codec.csv.CsvContentCodec;
-import com.jstarcraft.core.codec.json.JsonContentCodec;
-import com.jstarcraft.core.codec.kryo.KryoContentCodec;
-import com.jstarcraft.core.codec.protocolbufferx.ProtocolContentCodec;
-import com.jstarcraft.core.codec.specification.CodecDefinition;
-import com.jstarcraft.core.common.conversion.json.JsonUtility;
-import com.jstarcraft.core.common.reflection.ReflectionUtility;
-import com.jstarcraft.core.common.reflection.Specification;
-import com.jstarcraft.core.common.reflection.TypeUtility;
-import com.jstarcraft.core.utility.StringUtility;
+import com.shijingsh.core.codec.ContentCodec;
+import com.shijingsh.core.codec.csv.CsvContentCodec;
+import com.shijingsh.core.codec.json.JsonContentCodec;
+import com.shijingsh.core.codec.kryo.KryoContentCodec;
+import com.shijingsh.core.codec.protocolbufferx.ProtocolContentCodec;
+import com.shijingsh.core.codec.specification.CodecDefinition;
+import com.shijingsh.core.common.conversion.json.JsonUtility;
+import com.shijingsh.core.common.reflection.ReflectionUtility;
+import com.shijingsh.core.common.reflection.Specification;
+import com.shijingsh.core.common.reflection.TypeUtility;
+import com.shijingsh.core.utility.StringUtility;
 
 /**
  * 调制解调编解码

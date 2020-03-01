@@ -15,7 +15,7 @@ import com.shijingsh.ai.math.structure.matrix.GlobalMatrix;
 import com.shijingsh.ai.math.structure.matrix.MathMatrix;
 import com.shijingsh.ai.math.structure.matrix.RowGlobalMatrix;
 import com.shijingsh.ai.model.neuralnetwork.vertex.AbstractVertex;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 /**
  * Plus节点

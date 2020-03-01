@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.jstarcraft</groupId>
-        <artifactId>jstarcraft-ai</artifactId>
+        <groupId>com.shijingsh</groupId>
+        <artifactId>shijingsh-ai</artifactId>
         <version>1.0</version>
     </parent>
 
-    <artifactId>jstarcraft-ai-environment</artifactId>
+    <artifactId>shijingsh-ai-environment</artifactId>
     <packaging>jar</packaging>
 
     <build>
@@ -42,13 +42,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.jstarcraft</groupId>
-            <artifactId>jstarcraft-core-codec</artifactId>
+            <groupId>com.shijingsh</groupId>
+            <artifactId>shijingsh-core-codec</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.jstarcraft</groupId>
-            <artifactId>jstarcraft-core-orm</artifactId>
+            <groupId>com.shijingsh</groupId>
+            <artifactId>shijingsh-core-orm</artifactId>
         </dependency>
 
         <!-- 机器学习框架依赖 -->

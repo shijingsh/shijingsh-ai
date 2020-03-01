@@ -6,7 +6,7 @@ import java.util.Map.Entry;
 import com.shijingsh.ai.data.DataInstance;
 import com.shijingsh.ai.data.DataModule;
 import com.shijingsh.ai.data.IntegerArray;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.utility.KeyValue;
 
 import com.shijingsh.ai.data.DataInstance;
 import com.shijingsh.ai.data.DataModule;

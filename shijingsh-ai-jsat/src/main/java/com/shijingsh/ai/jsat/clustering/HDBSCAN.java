@@ -40,7 +40,7 @@ import com.shijingsh.ai.jsat.parameters.Parameterized;
 import com.shijingsh.ai.jsat.utils.FibHeap;
 import com.shijingsh.ai.jsat.utils.Tuple3;
 import com.shijingsh.ai.jsat.utils.UnionFind;
-import com.jstarcraft.core.utility.Integer2IntegerKeyValue;
+import com.shijingsh.core.utility.Integer2IntegerKeyValue;
 
 import com.shijingsh.ai.jsat.DataSet;
 import com.shijingsh.ai.jsat.parameters.Parameterized;

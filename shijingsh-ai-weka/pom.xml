@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.jstarcraft</groupId>
-        <artifactId>jstarcraft-ai</artifactId>
+        <groupId>com.shijingsh</groupId>
+        <artifactId>shijingsh-ai</artifactId>
         <version>1.0</version>
     </parent>
 
-    <artifactId>jstarcraft-ai-weka</artifactId>
+    <artifactId>shijingsh-ai-weka</artifactId>
     <packaging>jar</packaging>
 
     <build>
@@ -43,8 +43,8 @@
     <dependencies>
         <!-- 核心框架依赖 -->
         <dependency>
-            <groupId>com.jstarcraft</groupId>
-            <artifactId>jstarcraft-ai-evaluate</artifactId>
+            <groupId>com.shijingsh</groupId>
+            <artifactId>shijingsh-ai-evaluate</artifactId>
             <version>1.0</version>
         </dependency>
 

@@ -1,41 +1,41 @@
 # 整理自己推荐功能使用的部分
-## 原仓库地址：https://github.com/HongZhaoHua/jstarcraft-ai
-# JStarCraft AI
+## 原仓库地址：https://github.com/HongZhaoHua/shijingsh-ai
+# shijingsh AI
 
 ****
 
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![Total lines](https://tokei.rs/b1/github/HongZhaoHua/jstarcraft-ai?category=lines)](https://tokei.rs/b1/github/HongZhaoHua/jstarcraft-ai?category=lines)
+[![Total lines](https://tokei.rs/b1/github/HongZhaoHua/shijingsh-ai?category=lines)](https://tokei.rs/b1/github/HongZhaoHua/shijingsh-ai?category=lines)
 
-希望路过的同学,顺手给JStarCraft框架点个Star,算是对作者的一种鼓励吧!
+希望路过的同学,顺手给shijingsh框架点个Star,算是对作者的一种鼓励吧!
 
 ****
 
-**JStarCraft AI是一个机器学习的轻量级框架.遵循Apache 2.0协议.**
+**shijingsh AI是一个机器学习的轻量级框架.遵循Apache 2.0协议.**
 
 在学术界,绝大多数研究人员使用的编程语言是Python.
 
 在工业界,绝大多数开发人员使用的编程语言是Java.
 
-JStarCraft AI是一个基于Java语言的机器学习工具包,由一系列的数据结构,算法和模型组成.
+shijingsh AI是一个基于Java语言的机器学习工具包,由一系列的数据结构,算法和模型组成.
 
 目标是作为在学术界与工业界从事机器学习研发的相关人员之间的桥梁.普及机器学习在Java领域的应用.
 
 |作者|洪钊桦|
 |---|---
-|E-mail|110399057@qq.com, jstarcraft@gmail.com
+|E-mail|110399057@qq.com, shijingsh@gmail.com
 
 ****
 
-## JStarCraft AI架构
+## shijingsh AI架构
 
-JStarCraft AI框架各个模块之间的关系:
-![ai](https://github.com/HongZhaoHua/jstarcraft-tutorial/blob/master/ai/JStarCraft%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A1%86%E6%9E%B6%E7%BB%84%E4%BB%B6%E5%9B%BE.png "JStarCraft AI架构")
+shijingsh AI框架各个模块之间的关系:
+![ai](https://github.com/HongZhaoHua/shijingsh-tutorial/blob/master/ai/shijingsh%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A1%86%E6%9E%B6%E7%BB%84%E4%BB%B6%E5%9B%BE.png "shijingsh AI架构")
 
 ****
 
-## JStarCraft AI特性
-* [1.数据(data)](https://github.com/HongZhaoHua/jstarcraft-ai/wiki/%E6%95%B0%E6%8D%AE)
+## shijingsh AI特性
+* [1.数据(data)](https://github.com/HongZhaoHua/shijingsh-ai/wiki/%E6%95%B0%E6%8D%AE)
     * 属性与特征
         * 连续
         * 离散
@@ -52,7 +52,7 @@ JStarCraft AI框架各个模块之间的关系:
         * 概率
         * 相似度
         * 损失函数
-    * [数据结构(structure)](https://github.com/HongZhaoHua/jstarcraft-ai/wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
+    * [数据结构(structure)](https://github.com/HongZhaoHua/shijingsh-ai/wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
         * 标量
         * 向量
         * 矩阵
@@ -60,7 +60,7 @@ JStarCraft AI框架各个模块之间的关系:
         * 单元
         * 表单
 * 4.调制解调(modem)
-* [5.模型(model)](https://github.com/HongZhaoHua/jstarcraft-ai/wiki/%E6%A8%A1%E5%9E%8B)
+* [5.模型(model)](https://github.com/HongZhaoHua/shijingsh-ai/wiki/%E6%A8%A1%E5%9E%8B)
     * 线性模型(linear)
     * 近邻模型(nearest neighbor)
     * 矩阵分解模型(matrix factorization)
@@ -81,15 +81,15 @@ JStarCraft AI框架各个模块之间的关系:
         * 随机梯度下降(stochastic gradient descent)
     * 牛顿法和拟牛顿法(newton method/quasi newton method)
     * 共轭梯度法(conjugate gradient)
-    * [试探法(heuristic)](https://github.com/HongZhaoHua/jstarcraft-ai/wiki/%E8%AF%95%E6%8E%A2%E6%B3%95)
+    * [试探法(heuristic)](https://github.com/HongZhaoHua/shijingsh-ai/wiki/%E8%AF%95%E6%8E%A2%E6%B3%95)
         * 模拟退火算法(simulate anneal)
         * 遗传算法(genetic)
         * 蚁群算法(ant colony)
         * 粒子群算法(particle swarm)
-* [7.有监督学习(supervised)](https://github.com/HongZhaoHua/jstarcraft-ai/wiki/%E6%9C%89%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0)
+* [7.有监督学习(supervised)](https://github.com/HongZhaoHua/shijingsh-ai/wiki/%E6%9C%89%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0)
     * 分类
     * 回归
-* [8.无监督学习(unsupervised)](https://github.com/HongZhaoHua/jstarcraft-ai/wiki/%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0)
+* [8.无监督学习(unsupervised)](https://github.com/HongZhaoHua/shijingsh-ai/wiki/%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0)
     * 聚类
     * 关联
 * [9.丰富的评估指标](#评估指标)
@@ -98,7 +98,7 @@ JStarCraft AI框架各个模块之间的关系:
 
 ****
 
-## JStarCraft AI教程
+## shijingsh AI教程
 
 * 1.设置依赖
     * [Maven依赖](#Maven依赖)
@@ -124,7 +124,7 @@ JStarCraft AI框架各个模块之间的关系:
 
 ```maven
 <dependency>
-    <groupId>com.jstarcraft</groupId>
+    <groupId>com.shijingsh</groupId>
     <artifactId>ai</artifactId>
     <version>1.0</version>
 </dependency>
@@ -133,7 +133,7 @@ JStarCraft AI框架各个模块之间的关系:
 #### Gradle依赖
 
 ```gradle
-compile group: 'com.jstarcraft', name: 'ai', version: '1.0'
+compile group: 'com.shijingsh', name: 'ai', version: '1.0'
 ```
 
 #### 设置CPU环境
@@ -239,11 +239,11 @@ Future<?> task = context.doTask(() - > {
 
 #### 数据转换
 
-**数据转换器**(DataConverter)负责各种各样的格式转换为JStarCraft AI框架能够处理的**数据模块**(DataModule).
+**数据转换器**(DataConverter)负责各种各样的格式转换为shijingsh AI框架能够处理的**数据模块**(DataModule).
 
-JStarCraft AI框架各个转换器与其它系统之间的关系: 
+shijingsh AI框架各个转换器与其它系统之间的关系: 
 
-![converter](https://github.com/HongZhaoHua/jstarcraft-tutorial/blob/master/ai/%E8%BD%AC%E6%8D%A2%E5%99%A8%E7%B1%BB%E5%9B%BE.png "转换器")
+![converter](https://github.com/HongZhaoHua/shijingsh-tutorial/blob/master/ai/%E8%BD%AC%E6%8D%A2%E5%99%A8%E7%B1%BB%E5%9B%BE.png "转换器")
 
 * 定义数据属性
 
@@ -269,7 +269,7 @@ configuration.put(4, "score");
 DataModule module = space.makeDenseModule("module", configuration, 1000);
 ```
 
-**JStarCraft AI框架兼容的格式**
+**shijingsh AI框架兼容的格式**
 
 * ARFF
 

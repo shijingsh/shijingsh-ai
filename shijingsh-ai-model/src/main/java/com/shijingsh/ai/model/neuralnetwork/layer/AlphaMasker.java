@@ -4,7 +4,7 @@ import com.shijingsh.ai.math.structure.MathCalculator;
 import com.shijingsh.ai.math.structure.matrix.MathMatrix;
 import com.shijingsh.ai.model.neuralnetwork.activation.SELUActivationFunction;
 import com.shijingsh.ai.model.neuralnetwork.schedule.Schedule;
-import com.jstarcraft.core.utility.RandomUtility;
+import com.shijingsh.core.utility.RandomUtility;
 import com.shijingsh.ai.math.structure.MathCalculator;
 import com.shijingsh.ai.math.structure.matrix.MathMatrix;
 import com.shijingsh.ai.model.neuralnetwork.activation.SELUActivationFunction;

@@ -13,7 +13,7 @@ import com.shijingsh.ai.math.structure.matrix.MathMatrix;
 import com.shijingsh.ai.math.structure.matrix.SymmetryMatrix;
 import com.shijingsh.ai.math.structure.vector.MathVector;
 import com.shijingsh.ai.math.structure.vector.VectorScalar;
-import com.jstarcraft.core.utility.Float2FloatKeyValue;
+import com.shijingsh.core.utility.Float2FloatKeyValue;
 
 public abstract class AbstractCorrelation implements MathCorrelation {
 

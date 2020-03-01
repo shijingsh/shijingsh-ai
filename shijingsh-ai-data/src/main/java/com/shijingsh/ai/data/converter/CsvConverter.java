@@ -16,8 +16,8 @@ import org.apache.commons.csv.CSVRecord;
 import com.shijingsh.ai.data.DataModule;
 import com.shijingsh.ai.data.attribute.QualityAttribute;
 import com.shijingsh.ai.data.attribute.QuantityAttribute;
-import com.jstarcraft.core.common.conversion.csv.ConversionUtility;
-import com.jstarcraft.core.utility.KeyValue;
+import com.shijingsh.core.common.conversion.csv.ConversionUtility;
+import com.shijingsh.core.utility.KeyValue;
 
 import it.unimi.dsi.fastutil.ints.Int2FloatRBTreeMap;
 import it.unimi.dsi.fastutil.ints.Int2FloatSortedMap;

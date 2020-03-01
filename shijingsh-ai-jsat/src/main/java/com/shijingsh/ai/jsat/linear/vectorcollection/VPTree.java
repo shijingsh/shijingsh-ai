@@ -21,7 +21,7 @@ import com.shijingsh.ai.jsat.utils.IndexTable;
 import com.shijingsh.ai.jsat.utils.ModifiableCountDownLatch;
 import com.shijingsh.ai.jsat.utils.concurrent.ParallelUtils;
 import com.shijingsh.ai.jsat.utils.random.RandomUtil;
-import com.jstarcraft.core.utility.Double2IntegerKeyValue;
+import com.shijingsh.core.utility.Double2IntegerKeyValue;
 
 import com.shijingsh.ai.jsat.linear.Vec;
 import com.shijingsh.ai.jsat.linear.VecPaired;
