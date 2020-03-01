@@ -1,28 +1,22 @@
 package com.shijingsh.ai.data.converter;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.util.Collection;
-import java.util.Map.Entry;
-
-import com.shijingsh.ai.data.DataModule;
+import com.shijingsh.ai.data.*;
 import com.shijingsh.ai.data.attribute.QualityAttribute;
 import com.shijingsh.ai.data.attribute.QuantityAttribute;
-import org.apache.commons.csv.CSVFormat;
-
-import com.shijingsh.ai.data.DataModule;
-import com.shijingsh.ai.data.attribute.QualityAttribute;
-import com.shijingsh.ai.data.attribute.QuantityAttribute;
-import com.shijingsh.ai.data.module.DenseModule;
-import com.shijingsh.ai.data.module.SparseModule;
+import com.shijingsh.ai.data.module.*;
 import com.shijingsh.core.common.conversion.csv.ConversionUtility;
 import com.shijingsh.core.utility.KeyValue;
 import com.shijingsh.core.utility.StringUtility;
-
 import it.unimi.dsi.fastutil.ints.Int2FloatRBTreeMap;
 import it.unimi.dsi.fastutil.ints.Int2FloatSortedMap;
 import it.unimi.dsi.fastutil.ints.Int2IntRBTreeMap;
 import it.unimi.dsi.fastutil.ints.Int2IntSortedMap;
+import org.apache.commons.csv.CSVFormat;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.util.Collection;
+import java.util.Map.Entry;
 
 /**
  * Attribute-Relation File Format转换器
@@ -42,13 +36,14 @@ public class ArffConverter extends CsvConverter {
     }
 
     @Override
-    protected int parseData(DataModule module, BufferedReader buffer) throws IOException {
+    public int parseData(DataModule module, BufferedReader buffer) throws IOException {
         int count = 0;
         boolean mark = false;
         if (module instanceof DenseModule) {
             while (true) {
                 if (mark) {
-                    count += super.parseData(module, buffer);
+                    //todo cannot access  parseData
+                    //count = count + super.parseData(module, buffer);
                     break;
                 } else {
                     String line = buffer.readLine();

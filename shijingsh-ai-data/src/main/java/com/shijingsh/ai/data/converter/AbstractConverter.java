@@ -1,13 +1,11 @@
 package com.shijingsh.ai.data.converter;
 
+import com.shijingsh.ai.data.attribute.QualityAttribute;
+import com.shijingsh.ai.data.attribute.QuantityAttribute;
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-
-import com.shijingsh.ai.data.attribute.QualityAttribute;
-import com.shijingsh.ai.data.attribute.QuantityAttribute;
-import com.shijingsh.ai.data.attribute.QualityAttribute;
-import com.shijingsh.ai.data.attribute.QuantityAttribute;
 
 public abstract class AbstractConverter<T> implements DataConverter<T> {
 

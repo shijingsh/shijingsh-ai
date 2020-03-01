@@ -1,26 +1,21 @@
 package com.shijingsh.ai.data.converter;
 
-import java.io.IOException;
-import java.util.Collection;
-import java.util.Map.Entry;
-
-import com.shijingsh.ai.data.DataModule;
-import com.shijingsh.ai.data.attribute.QualityAttribute;
-import com.shijingsh.ai.data.attribute.QuantityAttribute;
-import org.apache.avro.generic.GenericRecord;
-import org.apache.parquet.hadoop.ParquetReader;
-
-import com.shijingsh.ai.data.DataModule;
+import com.shijingsh.ai.data.*;
 import com.shijingsh.ai.data.attribute.QualityAttribute;
 import com.shijingsh.ai.data.attribute.QuantityAttribute;
 import com.shijingsh.ai.data.exception.DataException;
 import com.shijingsh.core.common.conversion.csv.ConversionUtility;
 import com.shijingsh.core.utility.KeyValue;
-
 import it.unimi.dsi.fastutil.ints.Int2FloatRBTreeMap;
 import it.unimi.dsi.fastutil.ints.Int2FloatSortedMap;
 import it.unimi.dsi.fastutil.ints.Int2IntRBTreeMap;
 import it.unimi.dsi.fastutil.ints.Int2IntSortedMap;
+import org.apache.avro.generic.GenericRecord;
+import org.apache.parquet.hadoop.ParquetReader;
+
+import java.io.IOException;
+import java.util.Collection;
+import java.util.Map.Entry;
 
 /**
  * 列式转换器

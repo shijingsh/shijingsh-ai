@@ -19,9 +19,6 @@ public interface DataConverter<T> {
      *
      * @param module
      * @param iterator
-     * @param qualityMarkDimension
-     * @param quantityMarkDimension
-     * @param weightDimension
      * @return
      */
     int convert(DataModule module, T iterator);

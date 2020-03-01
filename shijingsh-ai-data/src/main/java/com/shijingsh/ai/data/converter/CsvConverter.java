@@ -1,28 +1,23 @@
 package com.shijingsh.ai.data.converter;
 
+import com.shijingsh.ai.data.*;
+import com.shijingsh.ai.data.attribute.QualityAttribute;
+import com.shijingsh.ai.data.attribute.QuantityAttribute;
+import com.shijingsh.core.common.conversion.csv.ConversionUtility;
+import com.shijingsh.core.utility.KeyValue;
+import it.unimi.dsi.fastutil.ints.Int2FloatRBTreeMap;
+import it.unimi.dsi.fastutil.ints.Int2FloatSortedMap;
+import it.unimi.dsi.fastutil.ints.Int2IntRBTreeMap;
+import it.unimi.dsi.fastutil.ints.Int2IntSortedMap;
+import org.apache.commons.csv.CSVFormat;
+import org.apache.commons.csv.CSVParser;
+import org.apache.commons.csv.CSVRecord;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Map.Entry;
-
-import com.shijingsh.ai.data.DataModule;
-import com.shijingsh.ai.data.attribute.QualityAttribute;
-import com.shijingsh.ai.data.attribute.QuantityAttribute;
-import org.apache.commons.csv.CSVFormat;
-import org.apache.commons.csv.CSVParser;
-import org.apache.commons.csv.CSVRecord;
-
-import com.shijingsh.ai.data.DataModule;
-import com.shijingsh.ai.data.attribute.QualityAttribute;
-import com.shijingsh.ai.data.attribute.QuantityAttribute;
-import com.shijingsh.core.common.conversion.csv.ConversionUtility;
-import com.shijingsh.core.utility.KeyValue;
-
-import it.unimi.dsi.fastutil.ints.Int2FloatRBTreeMap;
-import it.unimi.dsi.fastutil.ints.Int2FloatSortedMap;
-import it.unimi.dsi.fastutil.ints.Int2IntRBTreeMap;
-import it.unimi.dsi.fastutil.ints.Int2IntSortedMap;
 
 /**
  * Comma-Separated Values转换器
@@ -40,7 +35,7 @@ public class CsvConverter extends StreamConverter {
     }
 
     @Override
-    protected int parseData(DataModule module, BufferedReader buffer) throws IOException {
+    public int parseData(DataModule module, BufferedReader buffer) throws IOException {
         int count = 0;
         Int2IntSortedMap qualityFeatures = new Int2IntRBTreeMap();
         Int2FloatSortedMap quantityFeatures = new Int2FloatRBTreeMap();
