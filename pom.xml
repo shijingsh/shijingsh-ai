@@ -2,19 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jstarcraft</groupId>
-    <artifactId>jstarcraft-ai</artifactId>
+    <groupId>com.shijingsh</groupId>
+    <artifactId>shijingsh-ai</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>jstarcraft-ai-data</module>
-        <module>jstarcraft-ai-environment</module>
-        <module>jstarcraft-ai-evaluate</module>
-        <module>jstarcraft-ai-jsat</module>
-        <module>jstarcraft-ai-math</module>
-        <module>jstarcraft-ai-model</module>
-        <module>jstarcraft-ai-weka</module>
+        <module>shijingsh-ai-data</module>
+        <module>shijingsh-ai-environment</module>
+        <module>shijingsh-ai-evaluate</module>
+        <module>shijingsh-ai-jsat</module>
+        <module>shijingsh-ai-math</module>
+        <module>shijingsh-ai-model</module>
+        <module>shijingsh-ai-weka</module>
     </modules>
 
     <properties>
@@ -22,64 +22,26 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <configuration>
-                        <source>1.8</source>
-                        <target>1.8</target>
-                        <encoding>UTF-8</encoding>
-                    </configuration>
-                </plugin>
-                <plugin>
-                    <artifactId>maven-source-plugin</artifactId>
-                    <version>2.1</version>
-                    <configuration>
-                        <attach>true</attach>
-                    </configuration>
-                    <executions>
-                        <execution>
-                            <phase>compile</phase>
-                            <goals>
-                                <goal>jar</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
 
     <dependencyManagement>
         <dependencies>
-            <!-- 兼容JDK11 -->
-            <dependency>
-                <groupId>jdk.tools</groupId>
-                <artifactId>jdk.tools</artifactId>
-                <version>1.8</version>
-                <scope>system</scope>
-                <systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>
-            </dependency>
 
             <!-- 核心框架依赖 -->
             <dependency>
-                <groupId>com.jstarcraft</groupId>
-                <artifactId>jstarcraft-core-cache</artifactId>
+                <groupId>com.shijingsh</groupId>
+                <artifactId>shijingsh-core-cache</artifactId>
                 <version>1.0</version>
             </dependency>
 
             <dependency>
-                <groupId>com.jstarcraft</groupId>
-                <artifactId>jstarcraft-core-codec</artifactId>
+                <groupId>com.shijingsh</groupId>
+                <artifactId>shijingsh-core-codec</artifactId>
                 <version>1.0</version>
             </dependency>
 
             <dependency>
-                <groupId>com.jstarcraft</groupId>
-                <artifactId>jstarcraft-core-orm</artifactId>
+                <groupId>com.shijingsh</groupId>
+                <artifactId>shijingsh-core-orm</artifactId>
                 <version>1.0</version>
             </dependency>
 

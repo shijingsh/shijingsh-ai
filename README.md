@@ -1,3 +1,5 @@
+# 整理自己推荐功能使用的部分
+## 原仓库地址：https://github.com/HongZhaoHua/jstarcraft-ai
 # JStarCraft AI
 
 ****
