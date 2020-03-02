@@ -40,22 +40,6 @@
         </plugins>
     </build>
     <dependencies>
-        <!-- 兼容JDK11 -->
-<!--        <dependency>
-            <groupId>javax.annotation</groupId>
-            <artifactId>javax.annotation-api</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>jdk.tools</groupId>
-            <artifactId>jdk.tools</artifactId>
-        </dependency>-->
-
         <!-- shijingsh框架依赖 -->
 
         <!-- 切面框架依赖 -->

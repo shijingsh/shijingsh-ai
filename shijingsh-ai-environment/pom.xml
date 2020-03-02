@@ -41,15 +41,6 @@
     </build>
 
     <dependencies>
-<!--        <dependency>
-            <groupId>com.shijingsh</groupId>
-            <artifactId>shijingsh-core-codec</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.shijingsh</groupId>
-            <artifactId>shijingsh-core-orm</artifactId>
-        </dependency>-->
         <dependency>
             <groupId>com.shijingsh</groupId>
             <artifactId>shijingsh-ai-core</artifactId>

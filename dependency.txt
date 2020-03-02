@@ -1,11 +1,11 @@
+#shijingsh-ai-core
+无
+
 #shijingsh-ai-data
-shijingsh-core-cache
-shijingsh-core-codec
-shijingsh-core-orm
+shijingsh-ai-core
 
 #shijingsh-ai-environment
-shijingsh-core-codec
-shijingsh-core-orm
+shijingsh-ai-core
 
 #shijingsh-ai-evaluate
 shijingsh-ai-math
@@ -21,4 +21,9 @@ shijingsh-ai-environment
 shijingsh-ai-evaluate
 
 #shijingsh-ai-weka
+shijingsh-ai-evaluate
+
+#shijingsh-ai-rns
+shijingsh-ai-core
+shijingsh-ai-model
 shijingsh-ai-evaluate
