@@ -1,28 +1,22 @@
 package com.shijingsh.ai.data;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.TreeMap;
-
-import com.shijingsh.ai.data.DataAttribute;
 import com.shijingsh.ai.data.DataModule;
-import com.shijingsh.ai.data.attribute.QuantityAttribute;
-import com.shijingsh.ai.data.attribute.QualityAttribute;
-import com.shijingsh.ai.data.attribute.MemoryQuantityAttribute;
 import com.shijingsh.ai.data.attribute.MemoryQualityAttribute;
+import com.shijingsh.ai.data.attribute.MemoryQuantityAttribute;
+import com.shijingsh.ai.data.attribute.QualityAttribute;
+import com.shijingsh.ai.data.attribute.QuantityAttribute;
 import com.shijingsh.ai.data.module.DenseModule;
 import com.shijingsh.ai.data.module.SparseModule;
 import com.shijingsh.core.utility.KeyValue;
+
+import java.util.*;
+import java.util.Map.Entry;
 
 /**
  * 数据空间
  *
  * <pre>
- * 配合{@link DataAttribute},{@link DataModule}.
+ * 配合 DataAttribute DataModule.
  * </pre>
  *
  * @author Birdy

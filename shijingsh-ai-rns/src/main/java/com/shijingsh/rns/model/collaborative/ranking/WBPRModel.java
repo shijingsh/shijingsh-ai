@@ -1,10 +1,5 @@
 package com.shijingsh.rns.model.collaborative.ranking;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.shijingsh.ai.data.DataInstance;
 import com.shijingsh.ai.data.DataModule;
 import com.shijingsh.ai.data.DataSpace;
@@ -17,8 +12,12 @@ import com.shijingsh.core.utility.KeyValue;
 import com.shijingsh.core.utility.RandomUtility;
 import com.shijingsh.rns.model.MatrixFactorizationModel;
 import com.shijingsh.rns.utility.LogisticUtility;
-
 import it.unimi.dsi.fastutil.ints.IntSet;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  *
