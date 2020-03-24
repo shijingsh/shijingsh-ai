@@ -14,14 +14,14 @@ public class EnvironmentFactory {
 
     public final static String GPU_AFFINITY_MANAGER = "org.nd4j.jita.concurrency.CudaAffinityManager";
 
-    public static final EnvironmentContext CPU = CpuEnvironmentContext.INSTANCE;
+    //public static final EnvironmentContext CPU = CpuEnvironmentContext.INSTANCE;
 
-    public static final EnvironmentContext GPU = GpuEnvironmentContext.INSTANCE;
+    //public static final EnvironmentContext GPU = GpuEnvironmentContext.INSTANCE;
 
     public static final EnvironmentContext JAVA = JavaEnvironmentContext.INSTANCE;
 
     public final static EnvironmentContext getContext() {
-        try {
+/*        try {
             Class.forName(AFFINITY_MANAGER);
             try {
                 Class.forName(CPU_AFFINITY_MANAGER);
@@ -34,7 +34,7 @@ public class EnvironmentFactory {
             } catch (Exception exception) {
             }
         } catch (Exception exception) {
-        }
+        }*/
 
         return JAVA;
     }
