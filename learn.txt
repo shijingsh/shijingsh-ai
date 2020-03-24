@@ -1,0 +1,64 @@
+
+搜索和推荐其实本质都是一样的，推荐就是根据上下文获得一批候选目标。
+介个过程叫召回。
+
+
+在候选目标的基础上，根据用户的兴趣挑选最可能感兴趣的物品。
+介个过程叫排序。
+
+也叫TopN推荐。
+
+就是在召回和排序做啊。
+
+召回和排序都是个性化的啊
+
+召回是根据上下文变化。
+排序就是根据用户模型。
+
+我的示例一直在定时更新模型吗？
+
+你要考虑的是，行为数据多久更新。
+每次更新多少用户和物品等。
+
+因为模型越大，越复杂，更新越慢，越吃内存。
+
+我的示例中，你理解完核心流程。
+结合实际你去思考，就知道还有值得优化和改进的了。
+
+
+AbstractModel prepare数据准备阶段，这个思路是什么啊，没怎么弄明白，谢谢指点一下
+
+就是做各种数据预处理，分配内存等。
+
+得到物品的用户数而已啊。
+
+这个是热门推荐吧。
+热门推荐只计算用户数而已啊。
+
+越多人使用就越高分。
+
+
+        HashMatrix dataTable = new HashMatrix(true, this.userSize, this.itemSize, new Long2FloatRBTreeMap());
+        Iterator var8 = model.iterator();
+
+        while(var8.hasNext()) {
+            DataInstance instance = (DataInstance)var8.next();
+            int rowIndex = instance.getQualityFeature(this.userDimension);
+            int columnIndex = instance.getQualityFeature(this.itemDimension);
+            dataTable.setValue(rowIndex, columnIndex, instance.getQuantityMark());
+        }
+
+        this.scoreMatrix = SparseMatrix.valueOf(this.userSize, this.itemSize, dataTable);
+
+构建稀疏矩阵。
+构建一个哈希矩阵再转换成稀疏矩阵。
+得到一个user-item的矩阵。
+
+
+user 实体跟item实体好像没啥关联啊
+通过什么算啊
+
+
+通过行为计算。
+根据历史点击和评分记录啊。
+
