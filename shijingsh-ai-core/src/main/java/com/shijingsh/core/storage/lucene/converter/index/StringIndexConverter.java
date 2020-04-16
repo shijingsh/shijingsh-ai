@@ -54,6 +54,9 @@ public class StringIndexConverter implements IndexConverter {
                 configuration.setStoreTermVectors(true);
             }
         }
+        if(data==null){
+            data = "";
+        }
         indexables.add(new org.apache.lucene.document.Field(path, (String) data, configuration));
         return indexables;
     }
