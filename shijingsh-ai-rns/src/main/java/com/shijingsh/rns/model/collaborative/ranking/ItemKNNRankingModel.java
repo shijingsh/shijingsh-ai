@@ -27,8 +27,11 @@ public class ItemKNNRankingModel extends ItemKNNModel {
         int userIndex = instance.getQualityFeature(userDimension);
         int itemIndex = instance.getQualityFeature(itemDimension);
         SparseVector userVector = userVectors[userIndex];
-        MathVector neighbors = itemNeighbors[itemIndex];
-        if (userVector.getElementSize() == 0 || neighbors.getElementSize() == 0) {
+        MathVector neighbors = null;
+        if(itemNeighbors!=null && itemIndex<itemNeighbors.length){
+            neighbors = itemNeighbors[itemIndex];
+        }
+        if (userVector.getElementSize() == 0 || neighbors==null || neighbors.getElementSize() == 0) {
             instance.setQuantityMark(0F);
             return;
         }

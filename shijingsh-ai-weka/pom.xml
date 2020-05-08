@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.shijingsh</groupId>
+        <groupId>com.github.shijingsh</groupId>
         <artifactId>shijingsh-ai</artifactId>
-        <version>1.0</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>shijingsh-ai-weka</artifactId>
@@ -43,9 +43,9 @@
     <dependencies>
         <!-- 核心框架依赖 -->
         <dependency>
-            <groupId>com.shijingsh</groupId>
+            <groupId>com.github.shijingsh</groupId>
             <artifactId>shijingsh-ai-evaluate</artifactId>
-            <version>1.0</version>
+            <version>1.0.0</version>
         </dependency>
 
         <!-- 机器学习框架依赖 -->
